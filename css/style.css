@@ -1,0 +1,65 @@
+/**
+ * Style resetting.
+ */
+body {
+  font-size: 16px;
+}
+
+a {
+  transition: background-color .25s, color .25s;
+}
+
+.btn {
+  border-radius: 0;
+  font-size: 16px;
+}
+
+.btn-noborder {
+  border-width: 0;
+}
+
+.dropdown-menu {
+  border: none;
+  font-size: 16px;
+}
+
+.dropdown-menu > li > a {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.navbar {
+  margin-bottom: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #fff;
+}
+
+.jumbotron {
+  min-height: 320px;
+}
+
+.section {
+  padding: 84px 0;
+}
+
+.section-heading {
+  margin-bottom: 42px;
+  font-weight: 300;
+  font-size: 48px;
+}
+
+.section-subheading {
+  margin-bottom: 32px;
+  font-weight: 300;
+  font-size: 36px;
+}
+
+.feature-icon {
+  font-size: 132px;
+}
+
+.post-list dt {
+  padding: 6px 0;
+  font-weight: normal;
+}
