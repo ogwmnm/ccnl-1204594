@@ -35,7 +35,7 @@ a {
   background-color: #fff;
 }
 
-.jumbotron {
+.header {
   min-height: 320px;
 }
 
@@ -55,11 +55,50 @@ a {
   font-size: 36px;
 }
 
+.section-subheading a {
+  text-decoration: none;
+  color: #333;
+}
+
 .feature-icon {
   font-size: 132px;
 }
 
 .post-list dt {
-  padding: 6px 0;
+  margin-bottom: 8px;
+  padding: 8px 0;
   font-weight: normal;
 }
+
+.post-list .btn {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  background-color: #e9e9e9;
+}
+
+.post-list .btn:hover {
+  background-color: #fff;
+  color: #999;
+}
+
+.footer {
+  padding: 60px 0;
+  background-color: #333;
+  color: #fff;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #999;
+}
+
+.footer a:hover {
+  color: #fff;
+}
+
+.social-icon-list {
+  font-size: 24px;
+}
+
+.bg-gray-lighter { background-color: #eee; }
+.bg-gray-light   { background-color: #e9e9e9; }
