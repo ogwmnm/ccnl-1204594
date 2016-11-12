@@ -1,6 +1,5 @@
-/**
- * Style resetting.
- */
+/*  Bootstrap の上書き・追加
+-----------------------------*/
 body {
   font-size: 16px;
 }
@@ -35,10 +34,14 @@ a {
   background-color: #fff;
 }
 
+/*  ヘッダー
+-----------------------------*/
 .header {
   min-height: 320px;
 }
 
+/*  セクション
+-----------------------------*/
 .section {
   padding: 84px 0;
 }
@@ -60,10 +63,14 @@ a {
   color: #333;
 }
 
+/*  大きいアイコン
+-----------------------------*/
 .feature-icon {
   font-size: 132px;
 }
 
+/*  日付つきリスト
+-----------------------------*/
 .post-list dt {
   padding: 8px 0;
   font-weight: normal;
@@ -84,6 +91,8 @@ a {
   color: #999;
 }
 
+/*  フッター
+-----------------------------*/
 .footer {
   padding: 60px 0;
   background-color: #333;
@@ -99,10 +108,14 @@ a {
   color: #fff;
 }
 
+/*  ソーシャルアイコン
+-----------------------------*/
 .social-icon-list {
   font-size: 24px;
 }
 
+/*  TOPへ戻るボタン
+-----------------------------*/
 .back-to-top-btn {
   position: fixed;
   bottom: 12px;
@@ -118,5 +131,7 @@ a {
   opacity: .9;
 }
 
+/*  その他のユーティリティ
+-----------------------------*/
 .bg-gray-lighter { background-color: #eee; }
 .bg-gray-light   { background-color: #e9e9e9; }

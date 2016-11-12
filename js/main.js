@@ -2,9 +2,9 @@
 
   "use strict";
 
-  var $window = $(window),
-      $backToTopBtn = $("#js-back-to-top-btn"),
-      sr;
+  var sr,
+      $window = $(window),
+      $backToTopBtn = $("#js-back-to-top-btn");
 
   // スクロールでTOPに戻るボタンを表示・非表示する
   $window.on("scroll", function() {
@@ -21,13 +21,14 @@
     $("body, html").animate({ scrollTop: 0 }, 500);
   });
 
+  // スクロールでふわっと出るやつ
   sr = new ScrollReveal({ duration: 1000, scale: 1 });
   sr.reveal(".sr-top",    { origin: "top" });
   sr.reveal(".sr-right",  { origin: "right" })
   sr.reveal(".sr-bottom", { origin: "bottom" });
   sr.reveal(".sr-left",   { origin: "left" });
-  sr.reveal(".sr-fade", { distance: 0 });
-  sr.reveal(".sr-delay", { delay: 500 });
+  sr.reveal(".sr-fade",   { distance: 0 });
+  sr.reveal(".sr-delay",  { delay: 500 });
   sr.reveal(".sr-seq", 200);
 
 })(jQuery, ScrollReveal);
